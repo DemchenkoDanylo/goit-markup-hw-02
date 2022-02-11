@@ -1,23 +1,127 @@
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
-/* #FFFFFF
-#212121
-#FFFFFF
-#757575
-#2196F3
-#EEEEEE
-#000000
-#F5F4FA
-#FFFFFF
-#2F303A
-#ECECEC */
+:root {
+  /* Основные шрифты */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  /* Серый цыет текста */
+  --main-txt-cl: #757575;
+  /* Черный цвет текста */
+  --secondary-txt-cl: #212121;
+  /* Белый цвет фона */
+  --main-bcg-cl: #e5e5e5;
+  /* Бежевый цвет фона */
+  --secondary-bcg-cl: #f5f4fa;
+}
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--main-txt-cl);
+}
+
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.job-subtitle,
+.team-subtitle {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-txt-cl);
+}
+
+.features-subtitle {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-txt-cl);
+}
+.team-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-txt-cl);
+}
+
+.team-txt {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-txt-cl);
+}
+
+.footer-contacts-item {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-item {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-txt-cl);
+}
+
+.contact-item {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-txt-cl);
+}
+
+/* header */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.logo-cl {
+  color: #2196f3;
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.contact-item:hover,
+.contact-item:focus {
+  color: #2196f3;
 }

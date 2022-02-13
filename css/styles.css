@@ -44,26 +44,6 @@ body {
 }
 
 /* header */
-.nav-item {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--secondary-txt-cl);
-}
-
-.contact-item {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--main-txt-cl);
-}
-
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -84,6 +64,26 @@ body {
 .contact-link:hover,
 .contact-link:focus {
   color: #2196f3;
+}
+
+.nav-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-txt-cl);
+}
+
+.contact-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-txt-cl);
 }
 
 /* hero */
@@ -112,6 +112,10 @@ body {
   color: #ffffff;
   cursor: pointer;
   background: #2196f3;
+}
+
+.hero {
+  background: #2f303a;
 }
 
 /* features */
@@ -164,9 +168,13 @@ body {
   color: var(--main-txt-cl);
 }
 
+.team {
+  background: var(--secondary-bcg-cl);
+}
+
 /* footer */
 
-.footer-contacts-item {
+.footer-contacts-link {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
@@ -176,7 +184,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contacts-item-address {
+.footer-contacts-link-address {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
@@ -195,4 +203,8 @@ body {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+
+.footer {
+  background: #2f303a;
 }

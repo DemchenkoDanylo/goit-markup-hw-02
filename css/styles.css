@@ -86,6 +86,17 @@ body {
   color: var(--main-txt-cl);
 }
 
+.header {
+  background: #ffffff;
+}
+
+.firs {
+  color: #2196f3;
+}
+
+.portscnd {
+  color: #2196f3;
+}
 /* hero */
 
 .hero-title {
@@ -112,6 +123,12 @@ body {
   color: #ffffff;
   cursor: pointer;
   background: #2196f3;
+  border: none;
+  outline: none;
+}
+
+.hero-button:hover,
+.hero-button:focus {
 }
 
 .hero {
@@ -175,6 +192,8 @@ body {
 /* footer */
 
 .footer-contacts-link {
+  font-style: normal;
+  font-weight: normal;
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
@@ -185,6 +204,8 @@ body {
 }
 
 .footer-contacts-link-address {
+  font-style: normal;
+  font-weight: normal;
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
@@ -207,4 +228,48 @@ body {
 
 .footer {
   background: #2f303a;
+}
+
+/* portfolio nav */
+
+.portfolio-button {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-txt-cl);
+  background: var(--secondary-bcg-cl);
+  border: none;
+  outline: none;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.projects-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-txt-cl);
+}
+
+.projects-txt {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-txt-cl);
 }

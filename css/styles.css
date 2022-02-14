@@ -127,6 +127,11 @@ body {
   outline: none;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+}
+
 .hero {
   background: #2f303a;
 }
@@ -199,6 +204,18 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contacts-link-address {
+  font-style: normal;
+  font-weight: normal;
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
 .logo-footer {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -216,7 +233,7 @@ body {
 
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
-  color: #ffffff;
+  color: #2196f3;
 }
 
 /* portfolio nav */
